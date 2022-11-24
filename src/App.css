@@ -1,0 +1,104 @@
+.App{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.user-list{
+  width: 80%;
+  margin: 1% auto;
+}
+
+.css-1ygcj2i-MuiTableCell-root{
+  font-weight: 700!important;
+  font-size: 16px!important;
+}
+
+.user-name{
+  color: black;
+  text-decoration: none;
+}
+
+.profile{
+  margin: 1% auto;
+  width: 60%;
+  border: 1px solid rgb(184, 182, 182);
+  box-shadow: 4px 4px 10px grey;
+  padding: 40px 20px;
+  /* height: 200px; */
+  border-radius: 10px;
+}
+
+.profile > div{
+  background-color: rgb(223, 219, 219);
+  /* border: 1px solid black; */
+  padding: 30px;
+}
+
+.profile-head-name{
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.user-details{
+  color: rgb(93, 90, 90);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 17px;
+}
+
+.profile-box{
+  margin-top: 30px;
+  height: 70px;
+  background-color: white;
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 5px;
+}
+
+.profile-exp{
+  /* border: 1px solid black; */
+  width: 100px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  gap: -20px;
+  padding-top: 10px;
+}
+
+.profile-exp > div{
+  height: 1px;
+  text-align: center;
+  width: 100px;
+}
+
+.exp{
+  color: rgb(92, 89, 89);
+  margin-top: 5px;
+}
+
+.profile-year{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.rating-star{
+  height: 30px;
+}
+
+.footer{
+  height: 100px;
+  border: 1px solid rgb(214, 213, 213);
+  border-bottom: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float:inline-end;
+  
+}
+
+.footer-text{
+  color: grey;
+  text-align: center;
+}
