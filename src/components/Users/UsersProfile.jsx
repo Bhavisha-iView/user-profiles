@@ -1,6 +1,6 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
-import data from '../data.json'
+import data from '../../data.json'
 import StarsRating from 'stars-rating'
 
 const UsersProfile = () => {
