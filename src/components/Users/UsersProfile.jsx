@@ -1,15 +1,14 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 import data from '../../data.json'
-import StarsRating from 'stars-rating'
-
+import Ratingstar from '../StarsRating/RatingStar'
 const UsersProfile = () => {
     const params = useParams()
-    console.log(params)
+    // console.log(params)
 
     const filteredData = data.filter((item) => item.Id === params.id )
 
-    console.log(filteredData)
+    // console.log(filteredData)
 
   return (
     <div className='profile'>
@@ -32,10 +31,7 @@ const UsersProfile = () => {
                     </div>
                     <div className='profile-exp' >
                         <div className='rating-star' >
-                        <StarsRating
-                            count={+(filteredData[0].Ranked)}
-                            size={24}
-                            color1={'rgb(115, 115, 28)'} />
+                            <Ratingstar rank={filteredData[0].Ranked} />
                         </div>
                     </div>
                 </div>
